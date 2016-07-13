@@ -20,6 +20,7 @@ defmodule Smppex.Mixfile do
     [applications: [:logger, :ranch]]
   end
 
+  #ranch ~> 1.0
   defp deps do
     [
       {:coverex, "~> 1.4.1", only: :test},
